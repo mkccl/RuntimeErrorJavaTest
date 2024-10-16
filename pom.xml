@@ -47,7 +47,7 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- Spring AOP (optional, if you're using Spring) -->
+    <!-- Spring AOP -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>

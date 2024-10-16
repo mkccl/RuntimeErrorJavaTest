@@ -16,11 +16,4 @@ public class ErrorLogger {
     log.error("Error occurred in class: {}, method: {}, error: {}", className, methodName,
         throwable.getMessage());
   }
-
-  private String getStackTraceAsString(Throwable throwable) {
-    // Implementation to convert stack trace to string
-    // ...
-    System.out.println("Stack trace: " + throwable.getStackTrace());
-    return "";
-  }
 }
